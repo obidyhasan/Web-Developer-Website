@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Open Sans", sans-serif;
+    box-sizing: border-box;
+}
+
+:root{
+    --dark-1 : #181818;
+    --dark-2 : #474747;
+    --dark-3 : #757575;
+    --orange-color : #FD6E0A;
+    --bg-color : #FFF8F3;
+}
+
+
+
+/* 
+-------- Navbar section --------------
+*/
+nav{
+    width: 100%;
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 15%;
+    background-color: var(--bg-color);
+}
+
+nav h1{
+    font-size: 30px;
+    font-weight: 700;
+}
+
+nav h1 span{
+    color: var(--orange-color);
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+}
+
+nav ul li{
+    list-style: none;
+    margin: 10px;
+    padding: 10px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    font-weight: 500;
+    color: var(--dark-2);
+    font-size: 16px;
+}
+
+.btn-primary{
+    border: none;
+    background-color: var(--orange-color);
+    color: white;
+    font-weight: 600;
+    padding: 12px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+
+/* 
+----------- Hero Section --------------
+*/
+.hero-section{
+    width: 100%;
+    height: 100vh;
+    background-color: var(--bg-color);
+    display: flex;
+    align-items: center;
+    padding: 100px 0 0 15%;
+    background-image: url("../assets/images/developer.png"), url("../assets/images/header_bg.png");
+    background-repeat: no-repeat;
+    background-position: 40px 50%, right bottom;
+}
+
+.hero-section .hero-img{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: end;
+    justify-content: end;
+}
+
+.hero-section .hero-container{
+    width: 50%;
+}
+
+.hero-container h3{
+    font-size: 40px;
+    color: var(--dark-2);
+}
+
+.hero-container h1{
+    font-size: 60px;
+    color: var(--dark-1);
+    margin: 10px 0 20px;
+}
+
+.hero-container p{
+    color: var(--dark-3);
+    margin: 0 0 25px;
+    line-height: 1.7;
+}
+
+.btn-secondary{
+    border: 2px solid var(--orange-color);
+    color: var(--orange-color);
+    background-color: var(--bg-color);
+    font-weight: 600;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 15px;
+    margin-left: 20px;
+}
+
+
+/* 
+------------- Main Section --------------
+*/
+.article-section{
+    width: 100%;
+    padding: 60px 15%;
+}
+
+.section-title{
+    font-size: 36px;
+    color: var(--dark-1);
+}
+
+.section-sub-title{
+    color: var(--dark-2);
+    line-height: 1.8;
+    margin: 20px;
+}
+
+/* 
+------------- About Section ---------------
+*/
+.about-section{
+    width: 100%;
+    background-color: var(--bg-color);
+    border-radius: 10px;
+    padding: 120px 200px;
+    text-align: center;
+    margin: 50px 0;
+}
+
+.about-section .item-container{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+
+.item-container p{
+    margin: 10px;
+    color: var(--dark-2);
+}
+
