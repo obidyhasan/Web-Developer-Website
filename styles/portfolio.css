@@ -126,6 +126,10 @@ nav ul li a{
     margin-left: 20px;
 }
 
+.hero-container i{
+    margin-right: 10px;
+}
+
 
 /* 
 ------------- Main Section --------------
@@ -256,4 +260,70 @@ nav ul li a{
 hr{
     border-top: 1px solid rgb(237, 237, 237);
     border-left: none;
+}
+
+.resume-section i{
+    margin-right: 10px;
+}
+
+
+
+/* 
+---------------- Footer section ----------------
+*/
+footer{
+    gap: 60px;
+    display: flex;
+    padding: 100px 15%;
+    background-color: var(--bg-color);
+}
+
+.footer-contact{
+    width: 50%;
+}
+
+footer h1{
+    font-size: 32px;
+    color: var(--dark-1);
+}
+
+.footer-contact p{
+    margin: 25px 0;
+    line-height: 1.9;
+    color: var(--dark-2);
+}
+
+.social-container{
+    display: flex;
+}
+
+.social-container img{
+    margin-right: 20px;
+}
+
+.footer-message form{
+    margin-top: 30px;
+}
+
+form input[type="text"],
+form input[type="email"],
+form textarea{
+    width: 100%;
+    padding: 15px 20px;
+    border: none;
+    margin: 10px 0;
+    color: var(--dark-3);
+    font-size: 15px;
+    border-radius: 6px;
+}
+
+form input[type="submit"]{
+    margin-top: 10px;
+    padding: 12px 40px;
+    font-weight: 600;
+    border: none;
+    color: white;
+    background-color: var(--orange-color);
+    border-radius: 5px;
+    font-size: 16px;
 }
