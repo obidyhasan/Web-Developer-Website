@@ -341,16 +341,24 @@ form input[type="submit"]{
 /* Small Device */
 @media screen and (max-width: 576px){
 
-    .article-section{
+    .article-section,
+    footer{
         padding: 30px 20px;
     }
 
-    .skill-container{
+    .skill-container,
+    .resume-sub-section,
+    footer{
         flex-direction: column;
     }
 
     .skill-text{
         padding: 0;
+    }
+
+    .resume-container,
+    .footer-contact{
+        width: 100%;
     }
 
 }
@@ -359,16 +367,24 @@ form input[type="submit"]{
 /* Medium Device */
 @media screen and (min-width: 576px) and (max-width: 992px){
 
-    .article-section{
+    .article-section,
+    footer{
         padding: 30px 30px;
     }
 
-    .skill-container{
+    .skill-container,
+    .resume-sub-section,
+    footer{
         flex-direction: column;
     }
 
     .skill-text{
         padding: 0 20px;
+    }
+
+    .resume-container,
+    .footer-contact{
+        width: 100%;
     }
 
 }
