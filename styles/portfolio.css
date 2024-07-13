@@ -84,7 +84,7 @@ nav ul li a{
     padding: 100px 0 0 15%;
     background-image: url("../assets/images/developer.png"), url("../assets/images/header_bg.png");
     background-repeat: no-repeat;
-    background-position: 40px 50%, right bottom;
+    background-position: 40px 20%, right bottom;
 }
 
 .hero-img{
