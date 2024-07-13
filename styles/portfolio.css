@@ -327,3 +327,48 @@ form input[type="submit"]{
     border-radius: 5px;
     font-size: 16px;
 }
+
+
+
+
+/* 
+-------------------- Website Responsive -------------------
+*/
+.hide{
+    display: none;
+}
+
+/* Small Device */
+@media screen and (max-width: 576px){
+
+    .article-section{
+        padding: 30px 20px;
+    }
+
+    .skill-container{
+        flex-direction: column;
+    }
+
+    .skill-text{
+        padding: 0;
+    }
+
+}
+
+
+/* Medium Device */
+@media screen and (min-width: 576px) and (max-width: 992px){
+
+    .article-section{
+        padding: 30px 30px;
+    }
+
+    .skill-container{
+        flex-direction: column;
+    }
+
+    .skill-text{
+        padding: 0 20px;
+    }
+
+}
